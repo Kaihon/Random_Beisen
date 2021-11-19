@@ -15,4 +15,9 @@
         android:id="@+id/coin"
         android:icon="@drawable/coin_icon"
         android:title="@string/coin" />
+
+    <item
+        android:id="@+id/share_button"
+        android:icon="@drawable/chare_icon"
+        android:title="Команда разработчиков" />
 </menu>

@@ -1,5 +1,6 @@
 package space.nurgali.random_beisen
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
@@ -33,8 +34,12 @@ class MainActivity : AppCompatActivity() {
                 }
             }
             replaceFragment(fragment!!)
-
+        }
+        R.id.share_button ; {
+            val chooser = Intent.createChooser(intent, "О нас")
+            startActivity(chooser)
             true
+
         }
         //восстановление состояния нижней навигации
         //если не сохранено то по дефолту выбрать R.id.number
@@ -56,4 +61,12 @@ class MainActivity : AppCompatActivity() {
             .addToBackStack(null)
             .commit()
     }
+
+    val intent = Intent(Intent.ACTION_SEND)
+    intent.type = "text/plain"
+    intent.putExtra(
+    Intent.EXTRA_TEXT,
+    value :"Бейсенов и команда"
+    )
+
 }
