@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/number"
+        android:icon="@drawable/number_icon"
+        android:title="@string/number" />
+
+    <item
+        android:id="@+id/dice"
+        android:icon="@drawable/dice_icon"
+        android:title="@string/dice" />
+
+    <item
+        android:id="@+id/coin"
+        android:icon="@drawable/coin_icon"
+        android:title="@string/coin" />
+</menu>

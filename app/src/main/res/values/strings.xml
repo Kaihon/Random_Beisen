@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Random_Beisen</string>
+    <string name="number">Число</string>
+    <string name="dice">Кубик</string>
+    <string name="coin">Монетка</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="random">Random</string>
+</resources>
